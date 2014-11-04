@@ -67,9 +67,12 @@ public class MenuFragment extends Fragment{
                 break;
             case 3:
                 newContent = new HistorialFragment();
+                break;
             case 4:
                 newContent = new PendientMeetingFragment();
                 break;
+            case 5:
+                newContent = new ComentariosFragment();
         }
         if (newContent != null)
             switchFragment(newContent);
