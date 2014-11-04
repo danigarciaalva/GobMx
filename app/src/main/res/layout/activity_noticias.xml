@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <Button
+       android:id="@+id/act_noticias_btn_refresh"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Recargar"/>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="12dp"
+        android:id="@+id/act_noticias_list"></ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_noticias_txt"/>
+</LinearLayout>

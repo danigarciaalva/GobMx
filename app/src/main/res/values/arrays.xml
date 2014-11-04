@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="act_walk_desc_texts">
+        <item>Gob.Mx te permite ver el catálogo de trámites y servicios que el Gobierno Federal pone a tu disposición</item>
+        <item>Encuentra las dependencias que están cerca de ti, consulta los trámites que ofrece y accede a servicios directamente desde la app</item>
+        <item>Lorem</item>
+    </string-array>
+    <string-array name="act_walk_icons">
+        <item>@drawable/img_walk_1</item>
+        <item>@drawable/img_walk_2</item>
+        <item>@drawable/img_walk_3</item>
+    </string-array>
+    <string-array name="fr_menu_items">
+        <item>Trámites y Servicios</item>
+        <item>Noticias</item>
+        <item>Dependencias</item>
+        <item>Historial de trámites</item>
+        <item>Citas Pendientes</item>
+        <item>Comentarios</item>
+        <item>Configuración</item>
+    </string-array>
+</resources>

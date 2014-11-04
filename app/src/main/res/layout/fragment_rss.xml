@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#f0f0f0"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fr_noticias_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/fr_noticias_indicator"
+        android:layout_alignParentBottom="true"
+        android:padding="4dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        app:radius="4dp"
+        app:fillColor="#FF888888"
+        app:pageColor="#88FF0000"
+        app:strokeWidth="1dp"
+        />
+
+</RelativeLayout>

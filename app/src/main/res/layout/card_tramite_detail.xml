@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/card">
+    <TextView
+        android:id="@+id/cart_tramite_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/font_general_light"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/cart_tramite_detail_description"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@string/font_general_thin"
+        android:textSize="14sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/cart_tramite_detail_view_separator"
+        android:layout_marginTop="4dp"
+        android:visibility="gone"
+        android:background="@color/general_color_light_gray">
+        </View>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/card_tramite_detail_seemore"
+        android:fontFamily="@string/font_general_light"
+        android:textColor="@color/general_red"
+        android:textSize="12sp"
+        android:id="@+id/cart_tramite_detail_btn_more"
+        android:visibility="gone"/>
+</LinearLayout>

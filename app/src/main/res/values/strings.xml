@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gob.MX</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Buscar</string>
+    <string name="content_description">Content description</string>
+    <!-- Tab strings -->
+    <string-array name="tab_strings">
+        <item>Trámites y Servicios</item>
+        <item>Dependencias</item>
+        <item>Noticias</item>
+        <item>Comunidad</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Dummy values -->
+    <string name="fr_main_txt_online">Online</string>
+    <string name="fr_main_txt_tramite">Trámite</string>
+    <string name="fr_main_txt_dependencia">Dependencia</string>
+    <string name="fr_main_title">Trámites y Servicios</string>
+    <string name="act_noticias_title">Noticias</string>
+    <string name="gob_error_connection">No hay conexión a Internet</string>
+    <string name="gob_empty_tramites">No hay trámites disponibles</string>
+    <string name="gob_empty_dependencias">No hay dependencias</string>
+    <string name="gob_error_request">No se pudo procesar la petición, intente más tarde</string>
+    <string name="gob_dialog_loading_dependencies">Cargando dependencias</string>
+    <string name="font_general_light">sans-serif-light</string>
+    <string name="font_general_thin">sans-serif-thin</string>
+    <string name="fr_dependencias_dummy_select">Selecciona una dependencia</string>
+    <string name="pager_item_btn_more">Ver más</string>
+    <string name="gob_empty_noticias">No hay noticias disponibles</string>
+    <string name="gob_dialog_loading_news">Cargando noticias</string>
+    <string name="gob_dialog_loading_tramites">Descargando trámites</string>
+    <string name="general_font_light">sans-serif-light</string>
+    <string name="general_font_thin">sans-serif-thin</string>
+    <string name="title_activity_noticia_detail">NoticiaDetailActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_share">Compartir</string>
+    <string name="general_font_bold">sans-serif-bold</string>
+    <string name="act_noticias_detail_dummy">57</string>
+    <string name="font_general_bold">sans-serif-bold</string>
+    <string name="act_noticias_detail_views">vistas</string>
+    <string name="title_activity_walktrought">WalktroughtActivity</string>
+    <string name="act_walk_btn_enter">Empezar</string>
+    <string name="title_activity_tramite_detail">TramiteDetailActivity</string>
+    <string name="card_tramite_detail_seemore">Ver más</string>
+    <string name="gob_error_phone">No hay teléfono disponible</string>
+    <string name="gob_error_web_request">No hay página web disponible</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="act_noticias_detail_comments">comentarios</string>
+    <string name="title_activity_meeting_add">Agendar cita</string>
+    <string name="dialog_loading">Cargando...</string>
+    <string name="gob_dialog_loading_historial">Cargando historial de trámites</string>
+    <string name="gob_empty_historial">No se ha hecho ningún támite a la fecha</string>
+    <string name="action_see_dependency">Ver dependencia</string>
+    <string name="action_see_tramit">Ver trámite</string>
+
+</resources>

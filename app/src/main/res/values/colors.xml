@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="general_red">#ffd0021b</color>
+    <color name="general_color_light_gray">#e0e0e0</color>
+    <color name="general_color_dark_gray">#ff808080</color>
+    <color name="general_yellow">#F1C40F</color>
+    <color name="fr_menu_background">#f0f0f0</color>
+    <color name="calendar_month_color">#336666</color>
+    <color name="general_red_dark">#A53240</color>
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+</resources>

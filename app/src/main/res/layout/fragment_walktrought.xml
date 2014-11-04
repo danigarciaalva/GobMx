@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/img_background"
+        android:scaleType="fitCenter"
+        android:id="@+id/act_walk_image"
+        android:layout_marginBottom="90dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="140dp"
+        android:id="@+id/act_walk_container"
+        android:background="@color/general_red">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:fontFamily="@string/font_general_light"
+            android:textColor="@android:color/white"
+            android:id="@+id/act_walk_txt_description"/>
+        <Button
+            android:id="@+id/act_walk_btn_enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:visibility="gone"
+            android:layout_margin="32dp"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:fontFamily="@string/font_general_bold"
+            android:background="@drawable/act_walk_btn_enter"
+            android:text="@string/act_walk_btn_enter"/>
+    </RelativeLayout>
+</RelativeLayout>
